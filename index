@@ -1,1 +1,87 @@
-index
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcurt icon" href="aviaozinhooo.ico">
+    <title>Viagem ao Rio de Janeiro</title>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Viagem ao Rio de Janeiro</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+
+    </head>
+    
+</head>
+<body>
+    <header>
+        <h1>Descubra o Rio de Janeiro</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quem-somos">Quem Somos?</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao Rio!</h2>
+        <img src="images/cristo-redentor.jpg"Cristo Redentor" class="hero-image" width="850px">
+        <p>Explore as belezas do Rio de Janeiro, desde as praias até o Cristo Redentor,Uma Viagem Completa Para Você!</p>
+    </section>
+
+    <section id="quem-somos">
+        <h2>Quem Somos?</h2>
+        <p>Somos uma agência de turismo dedicada a proporcionar experiências inesquecíveis no Rio de Janeiro.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Excursões guiadas</li>
+            <li>Passeios de barco</li>
+            <li>Transporte e transfer</li>
+            <li>Pacotes personalizados</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="images/praia.jpg" alt="Praia do Rio" class="gallery-item" width="250px">
+            <img src="images/santa-teresa.jpg" alt="Santa Teresa" class="gallery-item" width="250px">
+            <img src="images/cristo-redentor2.jpg" alt="Cristo Redentor" class="gallery-item" width="250px">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Viagem ao Rio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
